@@ -7,7 +7,7 @@
  #define DHTTYPE DHT11  
  DHT dht(DHTPIN, DHTTYPE);  
  const char* ssid = "unknown";  
- const char* password = "chandan000";  
+ const char* mypassword = "chandan000";  
  WiFiClient client;  
  unsigned long myChannelNumber = 315123;  
  const char * myWriteAPIKey = "9YNCXQ1VJ6YQFXAH";  
